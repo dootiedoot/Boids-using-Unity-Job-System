@@ -1,0 +1,48 @@
+{
+  "ExternalFunctions": [
+    {
+      "Name": "UnityEngine.Jobs.TransformAccessArray::GetSortedToUserIndex",
+      "FullName": "UnityEngine.Jobs.TransformAccessArray.GetSortedToUserIndex(System.IntPtr transformArrayIntPtr)_C0C973B479F327A0"
+    },
+    {
+      "Name": "UnityEngine.Jobs.TransformAccessArray::GetSortedTransformAccess",
+      "FullName": "UnityEngine.Jobs.TransformAccessArray.GetSortedTransformAccess(System.IntPtr transformArrayIntPtr)_470F5CB87EB36427"
+    },
+    {
+      "Name": "Unity.Jobs.LowLevel.Unsafe.JobsUtility::PatchBufferMinMaxRanges",
+      "FullName": "Unity.Jobs.LowLevel.Unsafe.JobsUtility.PatchBufferMinMaxRanges(System.IntPtr bufferRangePatchData, void* jobdata, int startIndex, int rangeSize)_9EB083F63620D8B8"
+    },
+    {
+      "Name": "UnityEngine.Jobs.TransformAccess::GetPosition",
+      "FullName": "UnityEngine.Jobs.TransformAccess.GetPosition(ref UnityEngine.Jobs.TransformAccess access, ref UnityEngine.Vector3 p)_1D999F51B6B0DE99"
+    },
+    {
+      "Name": "UnityEngine.Jobs.TransformAccess::GetRotation",
+      "FullName": "UnityEngine.Jobs.TransformAccess.GetRotation(ref UnityEngine.Jobs.TransformAccess access, ref UnityEngine.Quaternion r)_F6984015118978F1"
+    },
+    {
+      "Name": "UnityEngine.Quaternion::Slerp_Injected",
+      "FullName": "UnityEngine.Quaternion.Slerp_Injected(ref UnityEngine.Quaternion a, ref UnityEngine.Quaternion b, float t, ref UnityEngine.Quaternion ret)_6A55505265399AC8"
+    },
+    {
+      "Name": "UnityEngine.Jobs.TransformAccess::SetRotation",
+      "FullName": "UnityEngine.Jobs.TransformAccess.SetRotation(ref UnityEngine.Jobs.TransformAccess access, ref UnityEngine.Quaternion r)_23BB52EEFBE84260"
+    },
+    {
+      "Name": "UnityEngine.Jobs.TransformAccess::SetPosition",
+      "FullName": "UnityEngine.Jobs.TransformAccess.SetPosition(ref UnityEngine.Jobs.TransformAccess access, ref UnityEngine.Vector3 p)_3E299FE2374E4141"
+    },
+    {
+      "Name": "UnityEngine.Quaternion::LookRotation_Injected",
+      "FullName": "UnityEngine.Quaternion.LookRotation_Injected(ref UnityEngine.Vector3 forward, ref UnityEngine.Vector3 upwards, ref UnityEngine.Quaternion ret)_C6F8690A306B42D9"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckReadAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckReadAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle)_5D0EA054F9B3B77F"
+    },
+    {
+      "Name": "burst_abort",
+      "FullName": "unused.burst_abort(System.String errorId, System.String message)_C2EC9A829AFAD7DD"
+    }
+  ]
+}
