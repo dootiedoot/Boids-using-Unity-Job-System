@@ -5,14 +5,19 @@ In this project, I created a simulation of fish schools inside a contained area.
 
 In the end, performance and results was very good. I was able to get more then 90 frames a second with thousands of agents which was the minimum target when tested inside a VR project.
 
-# Whats Next?
-* A solution to alleviate processing through every other fish is to only process fish only ones near it.
-* Avoidance steering such as from sharks when approached too close.
-
-This approach does NOT make use of Unity's Entities from Unity's ECS.
-
 # References:
 * https://en.wikipedia.org/wiki/Boids
 * https://docs.unity3d.com/Manual/JobSystem.html
 
 # Demos & samples:
+[![](http://img.youtube.com/vi/dEJ2Ut7DKr0/0.jpg)](http://www.youtube.com/watch?v=dEJ2Ut7DKr0)
+
+[![2](http://img.youtube.com/vi/T1JvPYZJz_g/0.jpg)](http://www.youtube.com/watch?v=T1JvPYZJz_g)
+
+[![3](http://img.youtube.com/vi/gbICBO0Wpxc/0.jpg)](http://www.youtube.com/watch?v=gbICBO0Wpxc)
+
+# Whats Next?
+* Currently, each agent has to loop through every other agent even if the other agent is too far for relevance. 
+* * Solution to this is to have each agent only calculate only its neighboring agents by caching neighbors within a sphere.
+* Add avoidance steering such from agents such as sharks when approached too close.
+* * Solution: Add influence logic and parameters to affect steering force.
