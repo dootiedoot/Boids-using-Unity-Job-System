@@ -20,5 +20,3 @@ In the end, performance and results was very good. I was able to get more then 9
 # Whats Next?
 * Currently, each agent has to loop through every other agent even if the other agent is too far for relevance. 
 * * Solution to this is to have each agent only calculate only its neighboring agents by caching neighbors within a sphere.
-* Add avoidance steering such from agents such as sharks when approached too close.
-* * Solution: Add influence logic and parameters to affect steering force.
